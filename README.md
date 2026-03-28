@@ -49,7 +49,6 @@ Os wireframes foram desenvolvidos no **Figma** em nível médio de fidelidade, c
 ### Página Institucional (Sobre)
 ![Wireframe - Sobre](docs/wireframe-sobre.png)
 
-> 💡 *Para adicionar as imagens acima: exporte os frames do Figma como PNG e salve na pasta `/docs` deste repositório.*
 
 ---
 
@@ -119,7 +118,7 @@ O acompanhamento das tarefas é feito via **Trello**:
 | Carlos Martins Espinoza Filho | — |
 | Guilherme Bobany Tavares de Oliveira | — |
 
-> Projeto orientado pelo curso de ADS — UNIVALI, Itajaí/SC.
+> Projeto orientado pelo curso de ADS, Prof. Maurício Pasetto de Freitas, MSc — UNIVALI, Itajaí/SC.
 
 ---
 
