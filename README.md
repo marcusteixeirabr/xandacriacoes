@@ -35,7 +35,7 @@ Desenvolver um site estático, responsivo e funcional para a Xanda Criações, p
 
 Os wireframes foram desenvolvidos no **Figma** em nível médio de fidelidade, cobrindo as quatro páginas obrigatórias do projeto.
 
-🔗 [Acesse o protótipo no Figma]([https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=u2MyaLb8dP3TgLFw-1](https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=Yd8lxB1ZNspSKl0N-1))
+🔗 [Acesse o protótipo no Figma](https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=Yd8lxB1ZNspSKl0N-1)
 
 ### Página Inicial
 ![Wireframe - Página Inicial](docs/wireframe-home.png)
