@@ -1,6 +1,6 @@
 # 🪵 Xanda Criações — Site Institucional
 
-> Site estático desenvolvido como projeto integrador extensionista universitária do curso de **Análise e Desenvolvimento de Sistemas** da **UNIVALI** (HOW V), em parceria com a empreendedora Priscila Alexandra da Silva Santos, fundadora da **Xanda Criações** — artesanato em MDF feito com carinho e criatividade.
+> Site estático desenvolvido como projeto integrador extensionista universitário do curso de **Análise e Desenvolvimento de Sistemas** da **UNIVALI** (HOW V), em parceria com a empreendedora Priscila Alexandra da Silva Santos, fundadora da **Xanda Criações** — artesanato em MDF feito com carinho e criatividade.
 
 ---
 
