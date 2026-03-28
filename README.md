@@ -35,7 +35,7 @@ Desenvolver um site estático, responsivo e funcional para a Xanda Criações, p
 
 Os wireframes foram desenvolvidos no **Figma** em nível médio de fidelidade, cobrindo as quatro páginas obrigatórias do projeto.
 
-🔗 [Acesse o protótipo no Figma](https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=Yd8lxB1ZNspSKl0N-1)
+🔗 [Acesse o protótipo no Figma](https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=g56GhcQH9VPuyzt2-1)
 
 ### Página Inicial
 ![Wireframe - Página Inicial](docs/wireframe-home.png)
@@ -106,7 +106,7 @@ xandacriacoes/
 
 O acompanhamento das tarefas é feito via **Trello**:
 
-🔗 [Board do Projeto no Trello](https://trello.com/invite/b/69af8003b3ae6817b0c2ee4d/ATTI3d7cdb7eb7ecbefc015835f1a0ed7ef80209F754/univali-how-v)
+🔗 [Board do Projeto no Trello](https://trello.com/b/W3GMIOhZ)
 
 ---
 
@@ -140,5 +140,5 @@ Este projeto foi desenvolvido exclusivamente para fins acadêmicos e de extensã
 ---
 
 <p align="center">
-  Feito com 💙 por alunos de ADS — UNIVALI · HOW V · 2025
+  Feito com 💙 por alunos de ADS — UNIVALI · HOW V · 2026
 </p>
