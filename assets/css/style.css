@@ -45,3 +45,20 @@ body {
   font-family: var(--fonte-corpo);
   line-height: 1.6;
 }
+
+#navbar-principal {
+  background-color: var(--cor-cacau);
+}
+
+.btn-orcamento {
+  background-color: var(--cor-terracota);
+  color: var(--fundo-branco) !important;
+  border-radius: var(--raio-btn);
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.btn-orcamento:hover {
+  background-color: var(--cor-siena);
+  color: var(--fundo-branco) !important;
+}
