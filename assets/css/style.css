@@ -1,0 +1,47 @@
+/* ================================================
+   XANDA CRIAÇÕES — Estilos customizados
+   Paleta: Rosa & Madeira
+   ================================================ */
+
+:root {
+  /* --- Cores principais --- */
+  --cor-cacau: #2c1a1a; /* Navbar, Footer, textos sobre fundo claro */
+  --cor-terracota: #c0614a; /* Botões CTA, destaques, hover */
+  --cor-siena: #a0522d; /* Links, títulos de seção, ícones */
+
+  /* --- Cores de fundo --- */
+  --fundo-pessego: #fdf0eb; /* Background principal */
+  --fundo-card: #fefaf8; /* Cards de produto, seções alternadas */
+  --fundo-branco: #ffffff; /* Formulários, inputs */
+
+  /* --- Texto --- */
+  --texto-escuro: #2c1a1a; /* Títulos, texto principal */
+  --texto-medio: #7a3d2a; /* Subtítulos, parágrafos */
+  --texto-claro: #fdf0eb; /* Texto sobre fundos escuros */
+  --texto-muted: #b07860; /* Legendas, placeholders */
+
+  /* --- Bordas --- */
+  --borda: #e8c5b5; /* Bordas de cards, inputs, separadores */
+
+  /* --- Tipografia --- */
+  --fonte-titulo: "Georgia", serif; /* Títulos — elegância artesanal */
+  --fonte-corpo: "Segoe UI", sans-serif; /* Corpo — legibilidade */
+
+  /* --- Espaçamentos --- */
+  --raio-borda: 8px; /* border-radius padrão dos cards */
+  --raio-btn: 6px; /* border-radius dos botões */
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--fundo-creme);
+  color: var(--texto-escuro);
+  font-family: var(--fonte-corpo);
+  line-height: 1.6;
+}
