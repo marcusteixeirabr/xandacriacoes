@@ -163,3 +163,96 @@ body {
     order: -1;
   }
 }
+
+/* --- Produtos em Destaque --- */
+#produtos-destaque {
+  padding: 80px 0;
+  background-color: var(--fundo-card);
+}
+
+.secao-subtitulo {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--cor-terracota);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.secao-titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  color: var(--texto-escuro);
+  margin-bottom: 0;
+}
+
+.link-ver-todos {
+  color: var(--cor-siena);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.link-ver-todos:hover {
+  color: var(--cor-terracota);
+}
+
+/* --- Cards de produto --- */
+.card-produto {
+  border: 1px solid var(--borda);
+  border-radius: var(--raio-borda);
+  background-color: var(--fundo-branco);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.card-produto:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(44, 26, 26, 0.1);
+}
+
+.card-produto .card-img-top {
+  border-radius: var(--raio-borda) var(--raio-borda) 0 0;
+  object-fit: cover;
+  height: 200px;
+}
+
+.card-categoria {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--cor-terracota);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 4px;
+}
+
+.card-produto .card-title {
+  font-family: var(--fonte-titulo);
+  font-size: 1.15rem;
+  color: var(--texto-escuro);
+  margin-bottom: 8px;
+}
+
+.card-produto .card-text {
+  font-size: 0.9rem;
+  color: var(--texto-medio);
+  margin-bottom: 16px;
+}
+
+.card-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.badge-produto {
+  background-color: var(--fundo-pessego);
+  color: var(--cor-siena);
+  border: 1px solid var(--borda);
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
