@@ -50,6 +50,10 @@ body {
   background-color: var(--cor-cacau);
 }
 
+.navbar-brand img {
+  filter: brightness(0) invert(1);
+}
+
 .btn-orcamento {
   background-color: var(--cor-terracota);
   color: var(--fundo-branco) !important;
