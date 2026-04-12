@@ -358,17 +358,15 @@ body {
 }
 
 /* --- Instagram --- */
-
 #instagram {
   padding: 80px 0;
   background-color: var(--fundo-card);
 }
 
 .secao-descricao {
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--texto-medio);
-  margin-bottom: 32px;
-  max-width: 480px;
+  margin-bottom: 0;
 }
 
 .link-instagram {
@@ -381,4 +379,22 @@ body {
 
 .link-instagram:hover {
   color: var(--cor-terracota);
+}
+
+.instagram-link-foto {
+  display: block;
+  overflow: hidden;
+  border-radius: var(--raio-borda);
+}
+
+.instagram-foto {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.instagram-link-foto:hover .instagram-foto {
+  transform: scale(1.05);
 }
