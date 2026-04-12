@@ -310,3 +310,49 @@ body {
   object-fit: contain;
   flex-shrink: 0;
 }
+
+/* --- Como Funciona --- */
+#como-funciona {
+  padding: 80px 0;
+  background-color: var(--fundo-pessego);
+}
+
+.funciona-passo {
+  padding: 8px 0;
+}
+
+.funciona-marcador {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--cor-terracota);
+  color: var(--fundo-branco);
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.funciona-divisoria {
+  width: 40px;
+  height: 3px;
+  background-color: var(--cor-terracota);
+  border-radius: 2px;
+  margin-bottom: 16px;
+}
+
+.funciona-titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 1.1rem;
+  color: var(--texto-escuro);
+  margin-bottom: 8px;
+}
+
+.funciona-descricao {
+  font-size: 0.9rem;
+  color: var(--texto-medio);
+  line-height: 1.6;
+  margin-bottom: 0;
+}
