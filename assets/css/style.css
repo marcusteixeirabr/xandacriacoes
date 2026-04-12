@@ -52,6 +52,7 @@ body {
 
 .navbar-brand img {
   filter: brightness(0) invert(1);
+  margin-right: 8px;
 }
 
 .btn-orcamento {
@@ -255,4 +256,57 @@ body {
   padding: 3px 10px;
   font-size: 0.78rem;
   font-weight: 500;
+}
+
+/* --- Porque Escolher --- */
+#porque-escolher {
+  padding: 80px 0;
+  background-color: var(--cor-cacau);
+}
+
+.secao-subtitulo-escuro {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--texto-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 4px;
+}
+
+.secao-titulo-escuro {
+  font-family: var(--fonte-titulo);
+  font-size: 2rem;
+  color: var(--texto-claro);
+  margin-bottom: 0;
+}
+
+.card-porque {
+  background-color: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(253, 240, 235, 0.15);
+  border-radius: var(--raio-borda);
+  transition: background-color 0.2s ease;
+}
+
+.card-porque:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-porque .card-title {
+  font-family: var(--fonte-titulo);
+  font-size: 1.15rem;
+  color: var(--texto-claro);
+  margin-bottom: 8px;
+}
+
+.card-porque .card-text {
+  font-size: 0.9rem;
+  color: var(--texto-muted);
+  margin-bottom: 0;
+}
+
+.icone-porque {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
