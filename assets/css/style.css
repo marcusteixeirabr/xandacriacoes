@@ -356,3 +356,29 @@ body {
   line-height: 1.6;
   margin-bottom: 0;
 }
+
+/* --- Instagram --- */
+
+#instagram {
+  padding: 80px 0;
+  background-color: var(--fundo-card);
+}
+
+.secao-descricao {
+  font-size: 1.05rem;
+  color: var(--texto-medio);
+  margin-bottom: 32px;
+  max-width: 480px;
+}
+
+.link-instagram {
+  color: var(--cor-siena);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.link-instagram:hover {
+  color: var(--cor-terracota);
+}
