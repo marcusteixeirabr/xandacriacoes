@@ -22,12 +22,12 @@ Desenvolver um site estático, responsivo e funcional para a Xanda Criações, p
 
 ## 🗂️ Páginas do Site
 
-| Página | Descrição |
-|---|---|
-| **Início** | Apresentação da marca, produtos em destaque, como funciona e call-to-action |
+| Página       | Descrição                                                                                                 |
+| ------------ | --------------------------------------------------------------------------------------------------------- |
+| **Início**   | Apresentação da marca, produtos em destaque, como funciona e call-to-action                               |
 | **Produtos** | Catálogo completo: logos, chaveiros, brincos, cofres, porta-celular, lembrancinhas e peças personalizadas |
-| **Sobre** | História da artesã, valores da marca e números do negócio |
-| **Contato** | Formulário de orçamento, links para WhatsApp, Instagram e e-mail |
+| **Sobre**    | História da artesã, valores da marca e números do negócio                                                 |
+| **Contato**  | Formulário de orçamento, links para WhatsApp, Instagram e e-mail                                          |
 
 ---
 
@@ -38,17 +38,20 @@ Os wireframes foram desenvolvidos no **Figma** em nível médio de fidelidade, c
 🔗 [Acesse o protótipo no Figma](https://www.figma.com/design/v06vUGvL1ZsTfaTW8o03pY/Wireframe---Xanda-Cria%C3%A7%C3%B5es?node-id=0-1&t=g56GhcQH9VPuyzt2-1)
 
 ### Página Inicial
-![Wireframe - Página Inicial](docs/wireframe-home.png)
+
+<img src="docs/wireframe-home.png" width="300">
 
 ### Página de Produtos
-![Wireframe - Produtos](docs/wireframe-produtos.png)
+
+<img src="docs/wireframe-produtos.png" width="300">
 
 ### Página de Contato
-![Wireframe - Contato](docs/wireframe-contato.png)
+
+<img src="docs/wireframe-contato.png" width="300">
 
 ### Página Institucional (Sobre)
-![Wireframe - Sobre](docs/wireframe-sobre.png)
 
+<img src="docs/wireframe-sobre.png" width="300">
 
 ---
 
@@ -57,6 +60,7 @@ Os wireframes foram desenvolvidos no **Figma** em nível médio de fidelidade, c
 - **HTML5** — estrutura das páginas
 - **CSS3** — estilização e responsividade
 - **JavaScript** — interatividade
+- **Bootstrap 5** — framework CSS para layout e componentes
 - **Figma** — prototipação e wireframes
 - **Netlify** — hospedagem estática gratuita
 - **GitHub** — versionamento de código
@@ -89,12 +93,19 @@ xandacriacoes/
 ├── produtos.html       # Catálogo de produtos
 ├── sobre.html          # Página institucional
 ├── contato.html        # Página de contato
-├── css/
-│   └── style.css       # Estilos globais
-├── js/
-│   └── main.js         # Scripts gerais
 ├── assets/
-│   └── images/         # Fotos dos produtos e da artesã
+│   ├── css             # Estilos globais
+│   │   ├── global.css  # Estilos globais
+│   │   └── style.css   # Estilos páginas
+│   ├── images/         # Fotos dos produtos e da artesã
+│   │   ├── common/     # Imagens usadas em várias páginas (logo, ícones, etc.)
+│   │   ├── home/       # Imagens da página inicial
+│   │   ├── produtos/   # Imagens dos produtos
+│   │   └── sobre/      # Imagens da página institucional
+│   └── js/
+│       ├── main.js     # Scripts gerais
+│       ├── catalog.js  # Scripts do catálogo
+│       └── form.js     # Scripts do formulário
 └── docs/
     └── wireframe-*.png # Capturas dos protótipos do Figma
 ```
@@ -111,12 +122,12 @@ O acompanhamento das tarefas é feito via **Trello**:
 
 ## 👥 Equipe
 
-| Nome | GitHub / Contato |
-|---|---|
-| Marcus Teixeira da Silva | [@marcusteixeirabr](https://github.com/marcusteixeirabr) |
-| Natasha Caroline da Silva Pereira | — |
-| Carlos Martins Espinoza Filho | — |
-| Guilherme Bobany Tavares de Oliveira | — |
+| Nome                                 | GitHub / Contato                                                               |
+| ------------------------------------ | ------------------------------------------------------------------------------ |
+| Marcus Teixeira da Silva             | [@marcusteixeirabr](https://github.com/marcusteixeirabr)                       |
+| Natasha Caroline da Silva Pereira    | [@natashapereira](https://github.com/natashapereira)                           |
+| Carlos Martins Espinoza Filho        | [@carlosespinozagmc-bit](https://github.com/carlosespinozagmc-bit)             |
+| Guilherme Bobany Tavares de Oliveira | [@guilhermebobanytavares-cmyk](https://github.com/guilhermebobanytavares-cmyk) |
 
 > Projeto orientado pelo curso de ADS, Prof. Maurício Pasetto de Freitas, MSc — UNIVALI, Itajaí/SC.
 
@@ -125,9 +136,13 @@ O acompanhamento das tarefas é feito via **Trello**:
 ## 🤝 Sobre a Parceira
 
 **Priscila Alexandra da Silva Santos**
+
 Fundadora da Xanda Criações
+
 📱 WhatsApp: (47) 99268-0063
+
 📧 xandacriacoes065782@gmail.com
+
 📷 Instagram: [@xandacriacoes](https://instagram.com/xandacriacoes)
 
 ---
